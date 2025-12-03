@@ -1,26 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        video{
+            width: 100%;
+            height: 20vh;
+            object-fit: cover;
+            display: block;
+            pointer-events: none;
+            opacity: 0.3;
+            z-index: 1000;      
+        }
+            footer {
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+            }
+            body {
+                padding-bottom: 50px;
+            }
+
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 20vh;
+            }
+
+        .header h1 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2000;
+                color: white;
+            }
+    </style>
 </head>
 
 <body>
+<<<<<<< Updated upstream
     <!--Moi-->
+=======
+    <!--z1 header area-->
+>>>>>>> Stashed changes
     <header>
-        <!--Z1 area.com-->
-
+        <video src="./z1_header.mp4" loop autoplay muted playsinline controls>
+        <h1>helou wörld</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Etusivu</a></li>
+            <li><a href="#">Tietoja</a></li>
+            <li><a href="#">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+        </video>
     </header>
 
     <main>
-        <!--z0 arema.com-->
+        <!--z0 arena.com-->
+        <h1>Portfolio</h1>
+        <h2>Topi Järvinen web17 Portfolio</h2>
+        <h3>Kuka olen</h3>
+        <h3>Historia</h3>
+        <p></p>
+        <h3>Harrastukset</h3>
+        <p></p>
     </main>
 
     <footer>
-        <!--z1 area.com-->
-        <video src="..\mymegawebsite\z1_fooder.mp4"></video>
-    </footer>
+         <!--z1 footer area.com-->
+        
+            
+            <div>
+
+                <video src="./z1_fooder.mp4" loop autoplay muted playsinline controls>
+                </video>
+
+            </div>
+
+            <div>© 2025 My Mega Website</div>
+       
+     </footer>
 </body>
 
 </html>
